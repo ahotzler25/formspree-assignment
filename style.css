@@ -3,16 +3,24 @@ fieldset {
     margin: 10px 0 12px 0;
     border-radius: 6px;
 }
-
-/* legend {
-    font-size: 20px;
-    padding: 3px 6px;
-    border-radius: 6px;
-} */
   
-  legend {
+legend {
     background-color: #000;
     color: #fff;
     padding: 3px 6px;
     border-radius: 6px;
-  }
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+textarea {
+    height: 75px;
+    width: 100%;
+}
