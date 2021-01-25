@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Formspree Assignment</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form action="https://formspree.io/f/xleozovp"
+    method="POST">
+        <fieldset>
+            <legend>Please Fill Out The Following Information</legend>
+            <label for="name">Name:</label><br />
+            <input for="name" id="name" type="text">
+            <br />
+            <label for="email">Email:</label><br />
+            <input for="email" id="email" type="text">
+            <br />
+            <label for="form-message">Your Message:</label><br />
+            <textarea id="message" name="form-message" placeholder="200 characters max"></textarea>
+            <br />
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
